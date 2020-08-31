@@ -1,0 +1,151 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+/* Heading-Section*/
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+.big-heading{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+.pricing-text{
+    font-size: 3rem;
+}
+.section-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* Container -Section*/
+.container-fluid{
+    padding: 7% 15%;
+}
+
+/* Sections */
+.coloured{
+    color: #fff;
+    background-color:#ff4C68;
+}
+.white{
+    background-color: #fff;
+}
+
+/* Title-Section */
+#title{
+    text-align:left;
+}
+#title .container-fluid{
+    padding: 3% 15% 7%;
+}
+/* Navigation -Bar*/
+.navbar{
+    padding:0 0 4.5rem;
+}
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+.nav-item{
+    padding: 0px 18px;
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+/* Download-Buttons*/
+
+.download-button{
+    margin:5% 3% 5% 0;
+}
+
+.title-image{
+    width:60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right:30%;
+}
+/*Features Section */
+
+.inter-icons{
+    color: #ef8172;
+    height: 25%;
+    width: 25%;
+    margin-bottom: 2rem;
+}
+.inter-icons:hover{
+    color:#ff4c68;
+}
+
+#features{
+    
+    position: relative;
+    z-index: 1;
+}
+.feature-box{
+    padding: 4.5%;
+}
+.feature-title{
+    font-size: 1.5rem;
+}
+p{
+    color:#8f8f8f;
+}
+/* Testimonials Section */
+
+#testimonials {
+    background-color: #ef8172;
+}
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.testimonial-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+#press{
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin:20px 20px 50px;
+}
+/* Pricing -section*/
+#pricing{
+    padding: 100px;
+}
+.pricing-column{
+    padding:3% 2%;
+}
+@media (max-width:1028px){
+    .title-image{
+        position: static;
+        transform: rotate(0deg);
+    }
+    #title{
+        text-align: center;
+    }
+}
+
+/* Call - it - Action Section */
+.cta-button{
+    margin: 5% 3% 5% 0%;
+}
+
+/* footer-Section*/
+
+.social-logo{
+    margin:20px 10px;
+}
